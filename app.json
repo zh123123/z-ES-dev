@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/stuList/stuList",
+    "pages/recog/recog"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "E S",
+    "navigationBarTextStyle": "black"
+  }
+}

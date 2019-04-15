@@ -1,0 +1,31 @@
+<view>
+  <view class="login-icon">
+    <image class="login-img" src="../resource/images/back.jpg"></image>
+  </view>
+  <view class="login-from">
+    <form bindsubmit='doLogin'>
+      <view class="section">
+        <view class="section__title">  <view class="inputView">
+
+        <label class="loginLabel">请选择考试项目</label>
+
+      </view>
+      <view class="line"></view> </view>
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+          <view class="picker">
+            <view class="inputView">
+        <image class="keyImage" src="../resource/images/password.png"></image>
+        <label class="loginLabel">{{array[index]}}</label>
+      </view>
+          </view>
+        </picker>
+      </view>
+
+      <!--按钮-->
+      <view>
+        <button class="loginBtn" type="primary" form-type='submit'>进入</button>
+      </view>
+
+    </form>
+  </view>
+</view>

@@ -1,0 +1,25 @@
+/* pages/recog/recog.wxss */
+
+.pre{
+  width:100rpx;
+  background: white;
+  border: none;
+}
+.name{
+  text-align: center;
+}
+.face {
+  margin: 50rpx auto;
+  width: 500rpx; 
+  height: 500rpx;
+  border-radius: 250rpx;
+
+}
+.capture {
+  width:200rpx;
+}
+
+.msg{
+  text-align: center;
+  font-size: 30rpx;
+}

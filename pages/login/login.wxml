@@ -1,0 +1,5 @@
+
+<view>
+<camera class="face" device-position="front" flash="off" binderror="error"></camera>
+<button class="capture" type="primary" bindtap="takePhoto">验证登录</button>
+</view>
